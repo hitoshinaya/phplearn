@@ -15,7 +15,6 @@
         $calc1 = $_POST['calc1'];
         $symbol = $_POST['symbol'];
         $calc2 = $_POST['calc2'];
-        //var_dump($_POST);
         //入力チェック
         if($calc2 == 0 && $symbol == "÷") {
             echo "計算できません。";
